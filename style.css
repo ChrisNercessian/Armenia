@@ -1,0 +1,23 @@
+#hide{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: radial-gradient(circle,red,white);
+    color: chartreuse;
+    top: 20px;
+    left: 10px;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom ,red,blue,orange);
+    background-repeat: no-repeat;
+    height: 640px;
+}
+img{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
