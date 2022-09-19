@@ -1,0 +1,293 @@
+ #toggle{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: radial-gradient(circle,red,white);
+    color: chartreuse;
+    top: 20px;
+    left: 10px;
+    text-align: center;
+}
+html{
+    height: 100%;
+    
+}
+body{
+    text-align: center;
+    background: linear-gradient(to bottom ,red,blue,orange);
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+img{
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+p{
+    color: gray;
+}
+
+#burger{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    z-index: 1;
+    
+}
+#menu{
+    background-color: greenyellow;
+    inset: 10%;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0 0 0 1000px rgba(143, 19, 19, 0.486);
+}
+#m,#c,#r{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+}
+#c{
+    right: 10px;
+    
+}
+#r{
+    right: 40px;
+    
+}
+#m{
+    right: 70px;
+}
+#hidden{
+    font-size: 20px;
+    display: none;
+    width: 200px;
+    height: 120px;
+    background-color: lawngreen;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#map1{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background-color: blueviolet;
+    top: 55px;
+    left: 400px;
+}
+#map2{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background-color: blueviolet;
+    top: 55px;
+    left: 510px;
+    font-size: 15px;
+}
+#map3{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background-color: blueviolet;
+    top: 55px;
+    left: 620px;
+}
+.active{
+    height: 70px !important;
+    background-color: white !important;
+}
+.maps{
+    border: solid 7px white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+#img1,#img2{
+    display: none;
+    width: 520px;
+}
+#img{
+    transform: translate(-50%,-44%);
+}
+#img1{
+    transform: translate(-50%,-37%);
+}
+#img2{
+    transform: translate(-50%,-53%);
+}
+
+.funfacts{
+    height: 50px;
+    background-color: red;
+    border: solid 2px black;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fa-chevron-down{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0,-50%);
+    transition: 1s;
+
+}
+.info{
+    height: 140px;
+    background-color: teal;
+    display: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ac{
+    transform: rotate(-180deg);
+    top: 30% !important;
+}
+.funinfo{
+    width: 405px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    top: 20px;
+}
+#time{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 20px;
+    border: 5px yellow double;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellowgreen;
+    transition: 1s;
+    z-index: 1000;
+}
+.acti{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px !important;
+    box-shadow: 0 0 0 1000px rgba(19, 143, 36, 0.486);
+    width: 68%;
+    height: 105px;
+}
+#flag{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-75%);
+    width: 320px;
+    height: 160px;
+    border-radius: 0%;
+    z-index: -1;
+}
+.buttons{
+    width: 75px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 0%;
+    margin: 5px;
+    z-index: 1;
+}
+#radius{
+    left: 80px;
+}
+#left{
+    left: 160px;
+}
+#right{
+    left: 240px;
+}
+#top{
+    left: 320px;
+}
+#bottom{
+    left: 400px;
+}
+#size-{
+    left: 480px;
+}
+#radius-{
+    left: 560px;
+}
+
+
+   
+#editpopup{
+    background: linear-gradient(150deg, rgba(254,2,98,1) 0%, rgba(94,0,197,1) 100%);;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 0px 2000px rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 10000;
+    
+    
+}
+#editbox{
+    resize: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    background: linear-gradient(150deg, rgba(255,255,255,1) 0%, rgba(112,184,255,1) 100%);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+}
+.choice{
+    position: absolute;
+    bottom: 0;
+    margin: 5px;
+}
+#yes{
+    left: 44%;
+}
+#no{
+    left: 30%;
+}
+
+#background{
+    background: linear-gradient(to bottom ,red,blue,orange);
+    background-repeat: no-repeat;
+    inset: 0;
+    z-index: -100000;
+    position: fixed;
+}
+#thing{
+    display: flex;
+    
+
+}
+
+
+#filter{
+    border: dashed red 2px !important;
+    display: none;
+}
+input{
+    border-radius: 10px;
+}
+
+
+  
+
+
+ 
+
